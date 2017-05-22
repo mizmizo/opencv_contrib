@@ -54,7 +54,7 @@ namespace cv
 //TODO based on the original implementation
 //http://vision.ucsd.edu/~bbabenko/project_miltrack.shtml
 
-#define  sign(s)  ((s > 0 ) ? 1 : ((s<0) ? -1 : 0))
+#define  sign2(s)  ((s > 0 ) ? 1 : ((s<0) ? -1 : 0))
 
 class ClfOnlineStump;
 
